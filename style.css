@@ -6,9 +6,23 @@ h1 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 img {
     border-style: double;
+    margin: auto;
+    display: block;
+    width: 20%;
+    height: 20%;
     }
+
+a: webkit-any-link {
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#title {
+    text-align: center;
+}
